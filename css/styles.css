@@ -524,8 +524,8 @@
     }
     .projects-img-text{
         position:absolute;
-        width: 100%;
-        height: 100%;
+        width:100%;
+        height:100%;
         top: 100%;
         padding: 63px 24px;
     
@@ -622,8 +622,10 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--second-text-color);
-    
         margin-bottom: 9px;
+
+        transition: color var(--hover-focus-duration) cubic-bezier(0.4, 0, 0.2, 1);
+
     }
     .contacts {font-weight: 500;
         font-size: 14px;
